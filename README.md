@@ -6,7 +6,7 @@ Avant de lancer le bot, assurez-vous d'avoir Node.js installé sur votre machine
 
 ```sh
 npm install discord.js dotenv fs moment
-Pour Start le BOT node dist/index.js
+Pour Start le BOT node start:dist
 
 # 📜 Licence
 
