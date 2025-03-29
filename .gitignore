@@ -1,12 +1,11 @@
 # Ignorer le dossier node_modules (dépendances)
 node_modules/
 
-# Ignorer le dossier source
+# Ignorer le dossier source (qui contient le code source non obfusqué)
 src/
 
-# Ignorer .env, qui peut contenir des informations sensibles
+# Ignorer le fichier .env (qui contient des informations sensibles)
 .env
 
-# Ignorer tout dans dist, sauf le fichier .gitignore
-dist/*
-!dist/.gitignore
+# Autoriser Git à suivre le dossier dist (tous les fichiers et sous-dossiers dans dist/)
+!dist/
