@@ -9,7 +9,11 @@ src/
 
 # Ignorer le vrai fichier config.json (on garde uniquement config.dist.json)
 config.json
+
+# ignorer des truc inutile
 CMD-DE-MISE-A-JOUR.txt
+config.dist.json
+.env.example
 
 # Autoriser Git à suivre le dossier dist (tous les fichiers et sous-dossiers dans dist/)
 !dist/
