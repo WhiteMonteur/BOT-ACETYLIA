@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  },
+  "scripts": {
+    "obfuscate": "javascript-obfuscator src --output dist --compact true --control-flow-flattening true",
+    "prepush": "npm run obfuscate",
+    "update": "git pull && npm run obfuscate"
+  }
+}

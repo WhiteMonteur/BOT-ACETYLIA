@@ -1,0 +1,12 @@
+# Ignorer le dossier node_modules (dépendances)
+node_modules/
+
+# Ignorer le dossier source
+src/
+
+# Ignorer .env, qui peut contenir des informations sensibles
+.env
+
+# Ignorer tout dans dist, sauf le fichier .gitignore
+dist/*
+!dist/.gitignore
