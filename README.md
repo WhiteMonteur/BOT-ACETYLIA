@@ -14,6 +14,10 @@ Pour Start le BOT node start:dist
 
 Ce projet est sous licence CC0-1.0 license.
 
+## Contribuer
+
+Vous pouvez voir la liste des contributeurs dans le fichier [CONTRIBUTORS.md](./CONTRIBUTORS.md).
+
 
 💡 Un projet développé par Kiura. pour L'académie RP du nom de Etylia
 
