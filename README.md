@@ -4,6 +4,13 @@
 
 Avant de lancer le bot, assurez-vous d'avoir Node.js installé sur votre machine. Ensuite, ouvrez un terminal dans le dossier du bot et exécutez la commande suivante pour installer toutes les dépendances :
 
+Modèle du .env : 
+
+TOKEN=YOUR_DISCORD-BOT_TOKEN
+ACTIVATION_KEY=ENTER-YOUR-KEY-HERE
+CLIENT_ID=CLIEND_ID
+GUILD_ID=GUILD_ID
+
 ```sh
 npm install discord.js dotenv fs moment
 Pour Start le BOT node dist/index.js
